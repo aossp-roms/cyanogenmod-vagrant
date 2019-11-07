@@ -5,7 +5,7 @@ class system-update()
     timeout => 3600;
   }
 
-  $dependencies = ['dos2unix', 'htop', 'vim', 'x11-apps', 'libXtst6', 'libXi6', 'xauth', 'openjdk-7-jdk']
+  $dependencies = ['dos2unix', 'htop', 'vim', 'x11-apps', 'libXtst6', 'libXi6', 'xauth', 'openjdk-7-jdk', 'zram-config']
   package { $dependencies:
     ensure  => installed,
     require => Exec['apt-get-update'],
