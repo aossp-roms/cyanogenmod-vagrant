@@ -106,7 +106,7 @@ class gnex(){
   exec { 'brunch':
     cwd         => '/home/buildbot/android/system',
     environment => ["HOME=/home/buildbot", "USER=buildbot"],
-    command     => "/bin/bash -c 'source build/envsetup.sh;brunch maguro'",
+    command     => "/bin/bash -c 'source build/envsetup.sh;brunch tomato'",
     user        => 'buildbot',
     group       => 'buildbot',
     timeout     => 0,
