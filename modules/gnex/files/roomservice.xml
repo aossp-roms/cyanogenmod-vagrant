@@ -5,5 +5,5 @@
   <project name="CyanogenMod/android_device_samsung_tuna" path="device/samsung/tuna" remote="github" />
   <project name="Ziyann/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
   <project name="CyanogenMod/android_device_yu_tomato" path="device/yu/tomato" remote="github" />
-  <project name="aossp-roms/kernel_yu_tomato" path="kernel/yu/tomato" remote="github" />
+  <project name="aossp-roms/kernel_yu_tomato" path="kernel/yu/tomato" remote="github" revision="cm-13.0" />
 </manifest>
