@@ -1,4 +1,4 @@
-#Galaxy Nexus Build Environment For CyanogenMod Custom ROMs
+# Build Environment For Custom ROMs
 
 This is an Ubuntu based VM with all the necessary dependencies to build a custom Android ROM. 
 On first start it will clone the relevant git repositories to build CyanogenMod for Galaxy Nexus.
@@ -25,7 +25,7 @@ For more info on the build steps that this is automating for you see the [Cyanog
 
 * Clone the repo (or download as zip from GitHub)
  
-        git clone git@github.com:opticyclic/cyanogenmod-vagrant.git
+        git clone git@github.com:aossp-roms/cyanogenmod-vagrant.git
         cd cyanogenmod-vagrant
 
 * Install [VirtualBox 5]:
