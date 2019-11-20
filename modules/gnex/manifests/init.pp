@@ -65,7 +65,7 @@ class gnex(){
 
   exec { 'init repo':
     cwd     => '/home/buildbot/android/system',
-    command => '/usr/local/bin/repo init -u https://github.com/CyanogenMod/android.git -b cm-13.0 --depth=1 --groups=all,-notdefault,-device,-darwin,-x86,-mips,-exynos5,-intel,-eclipse,-device',
+    command => '/usr/local/bin/repo init -u https://github.com/aossp-roms/android.git -b cm-13.0 --depth=1 --groups=all,-notdefault,-device,-darwin,-x86,-mips,-exynos5,-intel,-eclipse,-device',
     user    => 'buildbot',
     group   => 'buildbot',
     creates => '/home/buildbot/android/system/.repo',
