@@ -95,7 +95,7 @@ class gnex(){
   #This takes a long time (approx 5.5 GB)
   exec { 'sync repo':
     cwd     => '/home/buildbot/android/system',
-    command => '/usr/local/bin/repo sync -j6 -c',
+    command => '/usr/local/bin/repo sync --no-clone-bundle --force-sync --no-tags --optimized-fetch -j$(nproc --all) -c',
     user    => 'buildbot',
     group   => 'buildbot',
     timeout => 0,
